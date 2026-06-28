@@ -1,0 +1,40 @@
+# hypothesis_test_notes.md
+
+# Hypothesis Testing Notes
+
+## Business Question
+
+Does the new onboarding campaign improve Paid Conversion Rate?
+
+## Metric Tested
+
+Paid Conversion Rate
+
+## Null Hypothesis (H0)
+
+There is no statistically significant difference between the Control and Treatment groups.
+
+## Alternative Hypothesis (H1)
+
+The Treatment group has a higher Paid Conversion Rate than the Control group.
+
+## Test Type
+
+One-tailed hypothesis test.
+
+## Significance Level
+
+α = 0.05
+
+## Decision Rule
+
+* If p-value < 0.05 → Reject H0.
+* If p-value ≥ 0.05 → Fail to Reject H0.
+
+## Business Interpretation
+
+The Treatment group showed stronger user activation and engagement. However, guardrail metrics such as Support Ticket Rate increased noticeably. Therefore, although the campaign appears promising, a phased rollout with additional monitoring is recommended.
+
+## Conclusion
+
+Continue testing before a full-scale launch while monitoring support tickets and customer satisfaction.
